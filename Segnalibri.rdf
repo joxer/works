@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ephy="http://gnome.org/ns/epiphany#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="file:///home/joxer/Desktop/Segnalibri.rdf">
+    <title>Epiphany bookmarks</title>
+    <link>http://www.gnome.org/projects/epiphany/</link>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://www.debian.org/"/>
+        <rdf:li rdf:resource="http://www.gnome.org/"/>
+        <rdf:li rdf:resource="http://planet.debian.org/"/>
+        <rdf:li rdf:resource="http://bugs.debian.org"/>
+        <rdf:li rdf:resource="http://lulz.thruhere.net/#"/>
+        <rdf:li rdf:resource="http://riservamoac.blogspot.com/2007_02_01_archive.html"/>
+        <rdf:li rdf:resource="https://www.ohloh.net/"/>
+        <rdf:li rdf:resource="http://antirez.com/articoli/spaghettiajax.html"/>
+        <rdf:li rdf:resource="http://hax.cosenzainrete.it/"/>
+        <rdf:li rdf:resource="http://www.tcpdump.org/pcap.htm"/>
+        <rdf:li rdf:resource="http://www.detectiveconan.biz/?dc=ddepisodi"/>
+        <rdf:li rdf:resource="http://www.bo.cnr.it/corsi-di-informatica/corsoCstandard/Lezioni/01Indice.html"/>
+        <rdf:li rdf:resource="http://ddlfantasy.net/download/index.php?showforum=123"/>
+        <rdf:li rdf:resource="http://ddlfantasy.net/download/index.php?showtopic=29433"/>
+        <rdf:li rdf:resource="http://gist.github.com/12318"/>
+        <rdf:li rdf:resource="http://ddlfantasy.net/download/index.php?showtopic=8293"/>
+        <rdf:li rdf:resource="http://ddlfantasy.net/download/index.php?showtopic=8646"/>
+        <rdf:li rdf:resource="http://www.metacafe.com/watch/1796359/coca_cola_engine/"/>
+        <rdf:li rdf:resource="http://www.eqqon.com/index.php/Ruby_C_Extension_API_Documentation_(Ruby_1.8)"/>
+        <rdf:li rdf:resource="http://jsclass.jcoglan.com/"/>
+        <rdf:li rdf:resource="http://ruby.dzone.com/news/dynamically-created-methods-ru"/>
+        <rdf:li rdf:resource="http://ruby.dzone.com/news/dynamically-created-methods-ru"/>
+        <rdf:li rdf:resource="http://www.oreillynet.com/ruby/blog/2008/09/sexy_layouts_for_the_notsosexy.html"/>
+        <rdf:li rdf:resource="http://www.troubleshooters.com/codecorn/ruby/symbols.htm"/>
+        <rdf:li rdf:resource="http://www.oreillynet.com/ruby/blog/2005/12/digging_into_ruby_symbols_1.html"/>
+        <rdf:li rdf:resource="http://snippets.dzone.com/posts/show/788"/>
+        <rdf:li rdf:resource="http://paulgoscicki.com/archives/2005/10/custom-https-queries-in-ruby/"/>
+        <rdf:li rdf:resource="http://www.anobii.com/books/Il_cervello,_la_mente_e_lanima/9788804473763/01dc89323368c35923/"/>
+        <rdf:li rdf:resource="http://www.clorophilla.net/blog/?paged=4"/>
+        <rdf:li rdf:resource="http://www.sourcemage.org/Git_Guide"/>
+        <rdf:li rdf:resource="http://www.regnumzg.com.ar/index.php?option=com_rzgcitizens&amp;Itemid=45"/>
+        <rdf:li rdf:resource="http://www.lagrandefamiglia.it/html/modules.php?name=Pagina2"/>
+        <rdf:li rdf:resource="http://www.w3schools.com/js/js_obj_htmldom.asp"/>
+        <rdf:li rdf:resource="http://www.w3schools.com/js/js_form_validation.asp"/>
+        <rdf:li rdf:resource="http://www.reddit.com/?ref=G300x250C"/>
+        <rdf:li rdf:resource="http://blog.reindel.com/2007/10/16/mastering-javascript-concept-and-resource-guide/"/>
+        <rdf:li rdf:resource="http://stacktrace.it/2008/06/realizzare-videogiochi-j2me/"/>
+        <rdf:li rdf:resource="http://developer.mozilla.org/en/Core_JavaScript_1.5_Guide"/>
+        <rdf:li rdf:resource="http://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Block_Statement"/>
+        <rdf:li rdf:resource="http://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Predefined_Core_Objects"/>
+        <rdf:li rdf:resource="http://antirez.com/articoli/spaghettiajax.html"/>
+        <rdf:li rdf:resource="http://www.w3schools.com/jsref/default.asp"/>
+        <rdf:li rdf:resource="http://www.w3schools.com/htmldom/dom_examples.asp"/>
+        <rdf:li rdf:resource="http://www.mbutozone.it/spartiti/prontuario.htm"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="http://www.debian.org/">
+    <title>Debian</title>
+    <link>http://www.debian.org/</link>
+  </item>
+  <item rdf:about="http://www.gnome.org/">
+    <title>GNOME</title>
+    <link>http://www.gnome.org/</link>
+  </item>
+  <item rdf:about="http://planet.debian.org/">
+    <title>Planet Debian</title>
+    <link>http://planet.debian.org/</link>
+  </item>
+  <item rdf:about="http://bugs.debian.org">
+    <title>Debian Bug Tracking System</title>
+    <link>http://bugs.debian.org</link>
+    <ephy:smartlink>http://bugs.debian.org/%s</ephy:smartlink>
+  </item>
+  <item rdf:about="http://lulz.thruhere.net/#">
+    <title>IN LULZ WE TRUST</title>
+    <link>http://lulz.thruhere.net/#</link>
+  </item>
+  <item rdf:about="http://riservamoac.blogspot.com/2007_02_01_archive.html">
+    <title>Un mondo in Mi settima: febbraio 2007</title>
+    <link>http://riservamoac.blogspot.com/2007_02_01_archive.html</link>
+  </item>
+  <item rdf:about="https://www.ohloh.net/">
+    <title>Ohloh, the open source network</title>
+    <link>https://www.ohloh.net/</link>
+  </item>
+  <item rdf:about="http://antirez.com/articoli/spaghettiajax.html">
+    <title>Spaghetti Ajax: guida ajax in italiano</title>
+    <link>http://antirez.com/articoli/spaghettiajax.html</link>
+  </item>
+  <item rdf:about="http://hax.cosenzainrete.it/">
+    <title>HAX - Hax Are eXperience - Home</title>
+    <link>http://hax.cosenzainrete.it/</link>
+  </item>
+  <item rdf:about="http://www.tcpdump.org/pcap.htm">
+    <title>Programming with pcap</title>
+    <link>http://www.tcpdump.org/pcap.htm</link>
+  </item>
+  <item rdf:about="http://www.detectiveconan.biz/?dc=ddepisodi">
+    <title>Detective Conan [DOT] Biz - Your best resource of Detective Conan</title>
+    <link>http://www.detectiveconan.biz/?dc=ddepisodi</link>
+  </item>
+  <item rdf:about="http://www.bo.cnr.it/corsi-di-informatica/corsoCstandard/Lezioni/01Indice.html">
+    <title>Indice CPP</title>
+    <link>http://www.bo.cnr.it/corsi-di-informatica/corsoCstandard/Lezioni/01Indice.html</link>
+  </item>
+  <item rdf:about="http://ddlfantasy.net/download/index.php?showforum=123">
+    <title>DDLFantasy.Net -&gt; DVDRip Film</title>
+    <link>http://ddlfantasy.net/download/index.php?showforum=123</link>
+  </item>
+  <item rdf:about="http://ddlfantasy.net/download/index.php?showtopic=29433">
+    <title>Hancock - DDLFantasy.Net</title>
+    <link>http://ddlfantasy.net/download/index.php?showtopic=29433</link>
+  </item>
+  <item rdf:about="http://gist.github.com/12318">
+    <title>gist: 12318 — GitHub</title>
+    <link>http://gist.github.com/12318</link>
+  </item>
+  <item rdf:about="http://ddlfantasy.net/download/index.php?showtopic=8293">
+    <title>Detective Conan - DDLFantasy.Net</title>
+    <link>http://ddlfantasy.net/download/index.php?showtopic=8293</link>
+  </item>
+  <item rdf:about="http://ddlfantasy.net/download/index.php?showtopic=8646">
+    <title>Ghost In The Shell - Stand Alone Complex - DDLFantasy.Net</title>
+    <link>http://ddlfantasy.net/download/index.php?showtopic=8646</link>
+  </item>
+  <item rdf:about="http://www.metacafe.com/watch/1796359/coca_cola_engine/">
+    <title>Coca-cola Engine - Video</title>
+    <link>http://www.metacafe.com/watch/1796359/coca_cola_engine/</link>
+  </item>
+  <item rdf:about="http://www.eqqon.com/index.php/Ruby_C_Extension_API_Documentation_(Ruby_1.8)">
+    <title>Ruby C Extension API Documentation (Ruby 1.8) - eqqon</title>
+    <link>http://www.eqqon.com/index.php/Ruby_C_Extension_API_Documentation_(Ruby_1.8)</link>
+  </item>
+  <item rdf:about="http://jsclass.jcoglan.com/">
+    <title>JS.Class - Ruby-style JavaScript</title>
+    <link>http://jsclass.jcoglan.com/</link>
+  </item>
+  <item rdf:about="http://ruby.dzone.com/news/dynamically-created-methods-ru">
+    <title>Dynamically created methods in Ruby | Ruby Zone</title>
+    <link>http://ruby.dzone.com/news/dynamically-created-methods-ru</link>
+  </item>
+  <item rdf:about="http://ruby.dzone.com/news/dynamically-created-methods-ru">
+    <title>Dynamically created methods in Ruby | Ruby Zone</title>
+    <link>http://ruby.dzone.com/news/dynamically-created-methods-ru</link>
+  </item>
+  <item rdf:about="http://www.oreillynet.com/ruby/blog/2008/09/sexy_layouts_for_the_notsosexy.html">
+    <title>Sexy layouts for the not-so-sexy programmer - O'Reilly Ruby</title>
+    <link>http://www.oreillynet.com/ruby/blog/2008/09/sexy_layouts_for_the_notsosexy.html</link>
+  </item>
+  <item rdf:about="http://www.troubleshooters.com/codecorn/ruby/symbols.htm">
+    <title>The Ruby_Newbie Guide to Symbols</title>
+    <link>http://www.troubleshooters.com/codecorn/ruby/symbols.htm</link>
+  </item>
+  <item rdf:about="http://www.oreillynet.com/ruby/blog/2005/12/digging_into_ruby_symbols_1.html">
+    <title>Digging into Ruby Symbols - O'Reilly Ruby</title>
+    <link>http://www.oreillynet.com/ruby/blog/2005/12/digging_into_ruby_symbols_1.html</link>
+  </item>
+  <item rdf:about="http://snippets.dzone.com/posts/show/788">
+    <title>Custom HTTP/HTTPS GET/POST queries in Ruby [ruby] [http] [https] [cookies]</title>
+    <link>http://snippets.dzone.com/posts/show/788</link>
+  </item>
+  <item rdf:about="http://paulgoscicki.com/archives/2005/10/custom-https-queries-in-ruby/">
+    <title>Paul Goscicki » Blog Archive » Custom HTTPS POST queries in Ruby</title>
+    <link>http://paulgoscicki.com/archives/2005/10/custom-https-queries-in-ruby/</link>
+  </item>
+  <item rdf:about="http://www.anobii.com/books/Il_cervello,_la_mente_e_lanima/9788804473763/01dc89323368c35923/">
+    <title>Il cervello, la mente e l'anima - aNobii</title>
+    <link>http://www.anobii.com/books/Il_cervello,_la_mente_e_lanima/9788804473763/01dc89323368c35923/</link>
+  </item>
+  <item rdf:about="http://www.clorophilla.net/blog/?paged=4">
+    <title>clorophilla.blog</title>
+    <link>http://www.clorophilla.net/blog/?paged=4</link>
+  </item>
+  <item rdf:about="http://www.sourcemage.org/Git_Guide">
+    <title>Git_Guide - SourceMage Wiki</title>
+    <link>http://www.sourcemage.org/Git_Guide</link>
+  </item>
+  <item rdf:about="http://www.regnumzg.com.ar/index.php?option=com_rzgcitizens&amp;Itemid=45">
+    <title>Regnum: Zona de Guerra - Regnum Online Fansite</title>
+    <link>http://www.regnumzg.com.ar/index.php?option=com_rzgcitizens&amp;Itemid=45</link>
+  </item>
+  <item rdf:about="http://www.lagrandefamiglia.it/html/modules.php?name=Pagina2">
+    <title>LA GRANDE FAMIGLIA Modena City Ramblers Official Fans Club</title>
+    <link>http://www.lagrandefamiglia.it/html/modules.php?name=Pagina2</link>
+  </item>
+  <item rdf:about="http://www.w3schools.com/js/js_obj_htmldom.asp">
+    <title>Javascript DOM objects</title>
+    <link>http://www.w3schools.com/js/js_obj_htmldom.asp</link>
+  </item>
+  <item rdf:about="http://www.w3schools.com/js/js_form_validation.asp">
+    <title>JavaScript Form Validation</title>
+    <link>http://www.w3schools.com/js/js_form_validation.asp</link>
+  </item>
+  <item rdf:about="http://www.reddit.com/?ref=G300x250C">
+    <title>reddit.com: what's new online!</title>
+    <link>http://www.reddit.com/?ref=G300x250C</link>
+  </item>
+  <item rdf:about="http://blog.reindel.com/2007/10/16/mastering-javascript-concept-and-resource-guide/">
+    <title>d’bug » Blog Archive » Mastering JavaScript — concept and resource guide</title>
+    <link>http://blog.reindel.com/2007/10/16/mastering-javascript-concept-and-resource-guide/</link>
+  </item>
+  <item rdf:about="http://stacktrace.it/2008/06/realizzare-videogiochi-j2me/">
+    <title>Realizzare videogiochi in J2ME - Stacktrace, aperiodico di resistenza informatica</title>
+    <link>http://stacktrace.it/2008/06/realizzare-videogiochi-j2me/</link>
+  </item>
+  <item rdf:about="http://developer.mozilla.org/en/Core_JavaScript_1.5_Guide">
+    <title>Core JavaScript 1.5 Guide - MDC</title>
+    <link>http://developer.mozilla.org/en/Core_JavaScript_1.5_Guide</link>
+  </item>
+  <item rdf:about="http://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Block_Statement">
+    <title>Block Statement - MDC</title>
+    <link>http://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Block_Statement</link>
+  </item>
+  <item rdf:about="http://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Predefined_Core_Objects">
+    <title>Predefined Core Objects - MDC</title>
+    <link>http://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Predefined_Core_Objects</link>
+  </item>
+  <item rdf:about="http://antirez.com/articoli/spaghettiajax.html">
+    <title>Spaghetti Ajax: guida ajax in italiano</title>
+    <link>http://antirez.com/articoli/spaghettiajax.html</link>
+  </item>
+  <item rdf:about="http://www.w3schools.com/jsref/default.asp">
+    <title>JavaScript Reference</title>
+    <link>http://www.w3schools.com/jsref/default.asp</link>
+  </item>
+  <item rdf:about="http://www.w3schools.com/htmldom/dom_examples.asp">
+    <title>DOM Examples</title>
+    <link>http://www.w3schools.com/htmldom/dom_examples.asp</link>
+  </item>
+  <item rdf:about="http://www.mbutozone.it/spartiti/prontuario.htm">
+    <title>Prontuario sintetico Accordi per Chitarra - By MbutoZone.it</title>
+    <link>http://www.mbutozone.it/spartiti/prontuario.htm</link>
+  </item>
+</rdf:RDF>
