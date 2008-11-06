@@ -5,6 +5,7 @@
    -aggiunto listen
    -aggiunto accept
 */
+
 #include <netinet/in.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,7 +26,7 @@ int main(){
 
   local.sin_family = AF_INET;
   local.sin_port = htons(6000);
-  local.sin_addr.s_addr = INADDR_ANY;
+  local.sin_addr.s_addr = inet_addr("127.0.0.1");
   memset(local.sin_zero,"\0" , sizeof local.sin_zero );
   if((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == -1){
     
