@@ -24,10 +24,10 @@ int main(){
 
 
   local.sin_family = AF_INET;
-  local.sin_port = htons(8000);
+  local.sin_port = htons(6000);
   local.sin_addr.s_addr = INADDR_ANY;
   memset(local.sin_zero,"\0" , sizeof local.sin_zero );
-  if((sockfd = socket(PF_INET, SOCK_STREAM, 0)) == -1){
+  if((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == -1){
     
     fprintf(stderr, "ERROR initialize socket: %s", gai_strerror(sockfd));
     exit(1);
@@ -45,15 +45,34 @@ int main(){
     fprintf(stderr, "ERROR listening on the socket: %s", gai_strerror(sockfd));
     exit(1);
 
+    
+  };
+  
+
+  printf("waiting connection....");
+
+  socklen_t sin_size;
+  sin_size = sizeof remote;
+
+  while(1){
+
+    if((newfd = accept(sockfd, (struct sockaddr *)&remote, sizeof remote)) == -1){
+      perror("accept");
+      
+      continue;
+
+
+    }
+    if(send(newfd, "ciao mondo\n", 10, 0) == -1){
+
+      perror("send");
+      
+    };
+    printf("ACCEPTED");
 
   };
   
-  if((newfd = accept(sockfd, (struct sockaddr *)&remote, sizeof(remote))) == -1){
-      
-      fprintf(stderr, "ERROR in accept: %s", gai_strerror(sockfd));
-    exit(1);
-    }
-    
+  close(newfd);
   puts("ALL COMPLETE");
 
   return 0;
