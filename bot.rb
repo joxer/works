@@ -138,7 +138,7 @@ class Bot
         send("PRIVMSG #{@chan} :EVVAI!!!")
 	end
       
-      if ric =~ /!phrase/
+      if ric =~ /~phrase/
         
         send("PRIVMSG #{@chan} :#{@r.rp}")
         
@@ -148,12 +148,12 @@ class Bot
           send("PRIVMSG #{@chan} :concordo u.u")
       end
       
-      if ric =~ /!amore/
+      if ric =~ /~amore/
         a = ric.split
         send("PRIVMSG #{@chan} :ti amo #{a[4]} :*********** ")
       end
 
-      if ric =~ /!parroco/
+      if ric =~ /~parroco/
         a = ric.split
 	send("PRIVMSG #{@chan} :#{a[4]} e #{a[5]} siete marito e moglie :)))")
       end
@@ -195,7 +195,7 @@ class Bot
       end
       
       if ric =~ /!man/
-	send("PRIVMSG #{@chan} :comandi:EVVAI,vero,bleed")
+	send("PRIVMSG #{@chan} :comandi: EVVAI, vero, bleed, auguri, ~phrase, ~parroco, ~amore, !dado, !quote, !read, !dump")
       end
 
 =begin
@@ -211,10 +211,10 @@ class Bot
       if ric =~ /!quote/
         
         r = ric.split /!quote=/
-        
+        if r != nil
         @w.add(r[1].chop)
-      
-
+        end
+          
 
       end
 
