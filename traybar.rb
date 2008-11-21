@@ -42,12 +42,19 @@ module Charge
 
       ch = `acpi -a`.chop
       remain = ch.split(/\,/)[2] #remaning time and AC state
+      if remain == nil
+        remain = ch.split(/\,/)[1]
+      end
+          
       check(ch.split(/\,/)[1].gsub("%", "")) #percentage of battery
       self.tooltip = remain
       
       Gtk.timeout_add(30000) {
         ch = `acpi -a`.chop
         remain = ch.split(/\,/)[2] #remaning time and AC state
+        if remain == nil
+          remain = ch.split(/\,/)[1]
+        end
         check(ch.split(/\,/)[1].gsub("%", "")) #percentage of battery
         self.tooltip = remain
         true
