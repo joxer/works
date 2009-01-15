@@ -48,7 +48,7 @@ module Quote
       @f = YAML::load(File.new("quote.yml"))
       puts "VALUE #{@f}"
       
-      return @f[rand( @f.length - 1 ) ]
+      return @f[rand( @f.length - 1) + 1 ]
 
     end
 

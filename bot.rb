@@ -65,7 +65,7 @@ class Bot
     @server = "crypto.azzurra.org"
     @nick = "boxer`"
     @passwd = "QAZWSXEDC"
-    @chan = "#mtgitalia"
+    @chan = "#ruby-lang"
     @so = TCPSocket.new(@server, 6667)
   end
   
