@@ -1,0 +1,5 @@
+typedef struct TypeNeurodo neurodo;
+typedef struct TypeSinapsi sinapsi;
+typedef struct TypeLayer layer;
+typedef struct TypeNN neuralnet;
+

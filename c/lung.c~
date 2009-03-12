@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+
+int main(){
+
+  long double i, k;
+
+  for(i = 0; i < 10000000; i++){
+    for(k = 0;k < 10000000; k++){
+
+      if(i**k == k**1)
+	printf("%d, %d", i, k);
+
+    }
+    
+  }
+
+  return 0;
+}

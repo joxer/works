@@ -1,0 +1,24 @@
+#include "list.h"
+
+
+int main(){
+
+  struct list l1, *l2, *l3;
+
+  l1.value = 3; 
+
+  l2 = add_list(&l1, 4);
+  
+  l3 = add_list(l2, 4);
+  
+
+  
+  search(&l1, 4);
+  printf("%d\n", cdr(&l1));
+  printf("%d\n", car(&l1));
+  
+  puts("--------");
+  show_all(&l1);
+
+  return 0;
+}
